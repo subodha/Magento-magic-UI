@@ -1,0 +1,89 @@
+
+
+section {
+    margin-top: 40px;
+}
+#canvas {
+    cursor: crosshair;
+}
+#canvas, #html {
+    border: 1px solid #000;
+}
+.filename {
+    text-align: right;
+}
+#html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 1em;
+}
+.resizeable{
+    padding: 0;
+}
+.popup-input{
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.58);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    position: fixed;
+    background: #fff;
+    z-index: 9999999;
+    padding: 10px;
+}
+
+.popup-input .preview{
+    display: none;
+}
+
+#xxx{
+    font-style: normal;
+    font-family: "Ubuntu Mono","Andale Mono","DejaVu Sans Mono","Monaco","Bitstream Vera Sans Mono","Consolas","Lucida Console",monospace;
+    font-size: 12px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.popup-input  button {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.popup-input  button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+#inputTextToSave{
+    max-width: 300px;
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c2c2c2;
+    border-radius: 1px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    height: 20px;
+    padding: 10px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0 10px;
+    resize: none;
+}
